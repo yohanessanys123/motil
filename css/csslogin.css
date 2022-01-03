@@ -1,0 +1,173 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    -webkit-transition: all .2s linear;
+  
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #eacf4f;
+    border-radius: 5rem;
+  }
+  
+  body {
+    background: rgb(241, 241, 241);
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+  }
+  
+  section {
+    padding: 3rem 9%;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #000;
+    padding: 3rem 9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .header .navbar a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 6rem;
+  }
+  
+  .header .navbar a:hover {
+    text-decoration: underline;
+    color: #eacf4f;
+  }
+  
+  .header .navbar .space {
+    display: inline-block;
+    width: 16rem;
+  }
+  
+.form{ 
+    margin-top: 100px;
+    width: 300px; 
+    height: 350px; 
+    left : 525px;  
+    top: 50px;
+    position: relative;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 50px;
+    border-bottom: gold;
+    border-top: gold;
+    
+}
+
+.form h2{
+    font-family:sans-serif;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    border-radius : 10px;
+    padding : 10px;
+    margin-top: 10px;
+}
+.form input {
+    width : 250px;
+    height : 35px;
+    background: transparent;
+    border-bottom : 1px solid #ff7200;
+    border-top : none; 
+    border-right : none;
+    border-left: none;
+    color : black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left:30px;
+    font-family : sans-serif;
+    text-align: center;
+}
+
+.btn{
+    width : 240px;
+    height : 40px;
+    background: #ff7200;
+    border : none;
+    margin-top : 30px; 
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    margin-left: 30px;
+}
+
+.btn:hover{
+    color:#fff;
+}
+
+.link{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: honeydew;
+    margin-left: 30px;
+}
+
+.footer-bottom{
+    bottom:0px;
+    position: absolute;
+    padding-left:45%;
+    border:none;
+    color: white;
+    background: black;
+    width: 750px;
+    align-items: center;
+    display: flex;
+}
+
+.icon a{
+    text-decoration: none; 
+    color :rgb(0, 0, 0);
+}
+
+
+.icon{
+    padding-left: 625px;
+    font-size: 45px;
+    float:left;
+}
+.icon ion-icon{
+    color:orangered;
+}
+.icon ion-icon:hover{
+    color:black;
+}
+
+.link{
+    color:blue;
+    padding-left: 75px;
+    padding-top:20px;
+    
+}
